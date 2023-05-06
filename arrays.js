@@ -1,11 +1,11 @@
 // Given an array of strings, use a function to reverse all the elements in the string in ascending order 
 // and the specific elements in descending order
 
-// function sortArr(arr){
-//     return arr.sort().reverse("").split("")
+function sortArr(arr){
+    return arr.sort().reverse("").split("")
 
-// }
-// console.log(sortArr(arr["learning"]))
+}
+console.log(sortArr(arr["learning"]))
 
 // Given an array of objects, each object representing a person with a name and age property, 
 // write a function that returns the sum of all people who are less than 18 years.
